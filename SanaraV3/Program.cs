@@ -83,6 +83,7 @@ namespace SanaraV3
             await _commands.AddModuleAsync<Modules.Nsfw.BooruModule>(null);
             await _commands.AddModuleAsync<Modules.Nsfw.DoujinshiModule>(null);
             await _commands.AddModuleAsync<Modules.Nsfw.CosplayModule>(null);
+            await _commands.AddModuleAsync<Modules.Nsfw.VideoModule>(null);
             await _commands.AddModuleAsync<Modules.Radio.RadioModule>(null);
             await _commands.AddModuleAsync<Modules.Entertainment.FunModule>(null);
             await _commands.AddModuleAsync<Modules.Entertainment.MediaModule>(null);
